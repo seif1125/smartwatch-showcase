@@ -1,12 +1,15 @@
 import React from 'react';
+import Hero from './components/Hero.tsx';
 
 
 
 function App() {
   return (
     <div className="App">
-     <h1>⌚ Smartwatch Showcase</h1>
-     <p>Building step by step...</p>
+  
+     <Hero/>
+  
+
     </div>
   );
 }
