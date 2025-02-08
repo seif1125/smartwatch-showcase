@@ -8,8 +8,8 @@ export default function Hero() {
   const { scrollYProgress } = useScroll();
 
   // Scroll-based Transformations
-  const scale = useTransform(scrollYProgress, [0, 0.75], [1, 0.7]); // Shrinks
-  const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]); // Fades out
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.7]); // Shrinks
+  const opacity = useTransform(scrollYProgress, [0, 2], [1, 0]); // Fades out
 
   // GSAP Animation for Video
   useEffect(() => {

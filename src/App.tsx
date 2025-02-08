@@ -1,5 +1,7 @@
 import React from 'react';
+import NanBar from './components/NavBar.tsx'
 import Hero from './components/Hero.tsx';
+import Features from './components/Features.tsx';
 
 
 
@@ -8,7 +10,8 @@ function App() {
     <div className="App">
   
      <Hero/>
-  
+     <Features/>
+     {/* <NanBar/>  */}
 
     </div>
   );
