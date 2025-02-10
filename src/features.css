@@ -1,27 +1,49 @@
 .featuresSection {
-    padding: 80px 5%;
-    text-align: center;
-    background-color: #000;
-    color: white;
-    min-height: 100vh;
+  position: relative; /* Needed for absolute positioning of overlay */
+  background: url('/public/assets/features_bg.jpg') center/cover no-repeat; /* Set background image */
+  padding: 100px 20px; /* Adjust padding as needed */
+  text-align: center;
+  color: white; /* Ensure text remains visible */
+  overflow: hidden;
+  z-index: -1;
+}
 
-  }
+.featuresSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.9); /* Grey overlay with 85% opacity */
+  z-index: -1;
+}
   
+.subtitle{
+
+}
   .title {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     margin-bottom: 40px;
+    
   }
-  
+  .span-highlighted{
+    color: #f56900;
+  }
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    margin-top: 90px;
   }
   
   .featureCard {
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    text-align: start;
+  
     transition: transform 0.3s ease;
   }
   
@@ -33,8 +55,9 @@
     font-size: 3rem;
     display: block;
     margin-bottom: 15px;
+    color: #f56900;
   }
-  
+
   .featureTitle {
     font-size: 1.5rem;
     margin-bottom: 10px;
