@@ -9,7 +9,7 @@ export default function Hero() {
 
   // Scroll-based Transformations
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.7]); // Shrinks
-  const opacity = useTransform(scrollYProgress, [0, 2], [1, 0]); // Fades out
+  const opacity = useTransform(scrollYProgress, [0.25, 0.5], [1, 0]); // Fades out
 
   // GSAP Animation for Video
   useEffect(() => {
@@ -52,7 +52,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="textContainer"
         >
-          <h1 className="title">LUXE TIME™</h1>
+          <h1 className="main_title">LUXE TIME™</h1>
           <h2 className="model">Series X Pro</h2>
           <p className="description">
             The future of wearable technology. Experience precision, elegance,
