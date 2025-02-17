@@ -1,0 +1,72 @@
+.designSection {
+    width: 100vw;
+    padding: 80px 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: #000000; /* Dark background */
+    color: white;
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .designRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .reverse {
+    flex-direction: row-reverse; /* Reverse layout */
+  }
+  
+  .designImage {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .designText {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .smallHeader {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f7b733;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  
+  .subtitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 50px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #ccc;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .designRow {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .reverse {
+      flex-direction: column;
+    }
+  
+    .designImage {
+      width: 90%;
+    }
+  }
+  
