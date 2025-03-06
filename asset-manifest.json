@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/smartwatch-showcase/static/css/main.9d4460b8.css",
+    "main.js": "/smartwatch-showcase/static/js/main.c2b153ea.js",
+    "static/media/features_bg.jpg": "/smartwatch-showcase/static/media/features_bg.fd8b7554d52ae97a84f2.jpg",
+    "index.html": "/smartwatch-showcase/index.html",
+    "main.9d4460b8.css.map": "/smartwatch-showcase/static/css/main.9d4460b8.css.map",
+    "main.c2b153ea.js.map": "/smartwatch-showcase/static/js/main.c2b153ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d4460b8.css",
+    "static/js/main.c2b153ea.js"
+  ]
+}
