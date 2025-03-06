@@ -1,0 +1,72 @@
+.branches {
+    padding: 40px;
+    background-color: none;
+    color: white;
+    text-align: center;
+  }
+  
+  .branches-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;;
+  }
+  
+  .branches-grid {
+    display: grid;
+ 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .branch-card {
+    
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    color: #f7b733;
+  }
+  
+  .branch-image {
+    width: 100%;
+  
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .branch-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .branch-info {
+    padding: 15px;
+  }
+  
+  .branch-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .branch-info p {
+    font-size: 14px;
+    color: #808080;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .branches-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .branches-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  

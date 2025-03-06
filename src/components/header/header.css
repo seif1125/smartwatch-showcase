@@ -1,0 +1,37 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    color: white;
+    padding: 4px 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Glass effect */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .header-title{
+    font-size: 16px;
+    text-align: start;
+  }
+  @media (max-width: 425px) {
+    .header-title{
+      font-size: 16px;
+      text-align: center;
+    }
+    .header {
+      justify-content: center;
+      padding: 4px 0px;
+    }
+  }
+
