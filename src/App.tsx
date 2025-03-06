@@ -1,21 +1,25 @@
 import React from 'react';
-import NanBar from './components/NavBar.tsx'
-import Hero from './components/Hero.tsx';
-import Features from './components/Features.tsx';
-import Design from './Design.tsx';
-import Gallery from './Gallery.tsx';
+import Header from './components/header/Header.tsx'
+import Hero from './components/hero/Hero.tsx'
+import Features from './components/features/Features.tsx';
+import Design from './components/design/Design.tsx';
+import Gallery from './components/gallery/Gallery.tsx';
+import Branches from './components/branches/branches.tsx';
+import Footer from './components/footers/Footer.tsx';
 
 
 
 function App() {
   return (
     <div className="App">
-  
+     <Header />
      <Hero/>
      <Features/>
      <Design/>
      <Gallery/>
-     {/* <NanBar/>  */}
+     <Branches />
+     <Footer/>
+    
 
     </div>
   );
