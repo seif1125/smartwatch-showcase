@@ -31,7 +31,7 @@ export default function Gallery() {
       title: "Leave your iPhone behind. Take directions with you.",
       description:
         "Download offline maps to your iPhone, and they will automatically sync to your watch.",
-      imgSrc: "./assets/images/gallery/location",
+      imgSrc: "./assets/images/gallery/location ",
     },
     {
       id: "xmarks",
