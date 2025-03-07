@@ -71,6 +71,7 @@ code {
   margin: 0px;
   color: white;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .model {
@@ -150,6 +151,15 @@ code {
     gap: 5vw;
   }
 
+
+  .main-title{
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
   .title {
     font-size: 3.25rem;
     text-align: center;
