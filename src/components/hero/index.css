@@ -119,6 +119,7 @@ code {
 
   .title {
     font-size: 6vw;
+    text-align: start;
   }
 
   .model {
@@ -138,7 +139,7 @@ code {
 @media (max-width: 480px) {
   .canvas {
     position: absolute;
-    top: 25vh;
+    top: 10vh;
     left: 5%;
     right: 5%;
     display: flex;
@@ -150,7 +151,7 @@ code {
   }
 
   .title {
-    font-size: 4.25rem;
+    font-size: 3.25rem;
     text-align: center;
   }
 
