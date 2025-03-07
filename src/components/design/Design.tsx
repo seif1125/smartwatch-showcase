@@ -52,9 +52,9 @@ export default function Design() {
           animate={firstRowImageInView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <source srcSet="./assets/images/design/design_1.avif" type="image/avif" />
+          <source srcSet="./assets/images/design/design_1.avif " type="image/avif" />
           <img
-            src="./assets/images/design/design_1.png"
+            src="./assets/images/design/design_1.png "
             alt="Smartwatch Design"
             className="designImage"
           />
@@ -114,9 +114,9 @@ export default function Design() {
             transition={{ duration: 0.5 }}
             onLoad={() => setLoaded(true)} // Ensures smooth loading
           >
-            <source srcSet={`/assets/images/design/${colorOptions[selectedColor]}.avif`} type="image/avif" />
+            <source srcSet={`./assets/images/design/${colorOptions[selectedColor]}.avif`} type="image/avif" />
             <img
-              src={`/assets/images/design/${colorOptions[selectedColor]}.png`}
+              src={`./assets/images/design/${colorOptions[selectedColor]}.png`}
               alt="Smartwatch Design"
               className="designImage"
             />
