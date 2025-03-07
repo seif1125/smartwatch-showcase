@@ -7,25 +7,25 @@ const branches = [
     id: "cairo",
     city: "Cairo",
     address: "12 El Tahrir Street, Downtown, Cairo, Egypt",
-    imgSrc: "/assets/images/branches/eg-map",
+    imgSrc: "./assets/images/branches/eg-map",
   },
   {
     id: "dubai",
     city: "Dubai",
     address: "Burj Khalifa, Downtown Dubai, UAE",
-    imgSrc: "/assets/images/branches/ae-map",
+    imgSrc: "./assets/images/branches/ae-map",
   },
   {
     id: "amsterdam",
     city: "Amsterdam",
     address: "Keizersgracht 174, 1016 DW Amsterdam, Netherlands",
-    imgSrc: "/assets/images/branches/nl-map",
+    imgSrc: "./assets/images/branches/nl-map",
   },
   {
     id: "madrid",
     city: "Madrid",
     address: "Gran Vía 28, 28013 Madrid, Spain",
-    imgSrc: "/assets/images/branches/es-map",
+    imgSrc: "./assets/images/branches/es-map",
   },
 ];
 

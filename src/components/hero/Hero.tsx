@@ -26,7 +26,7 @@ export default function Hero() {
       {/* Background Video */}
       <video
         ref={videoRef}
-        src="/assets/videos/smartwatch-video.webm"
+        src="./assets/videos/smartwatch-video.webm"
         autoPlay
         loop
         muted
@@ -62,8 +62,8 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1 }}
         >
           <picture>
-            <source srcSet="public/assets/images/hero/hero_img.avif" type="image/avif" />
-            <img src="public/assets/images/hero/hero_img.png" alt="Smartwatch" className="image" loading="lazy" />
+            <source srcSet="./assets/images/hero/hero_img.avif" type="image/avif" />
+            <img src="./assets/images/hero/hero_img.png" alt="Smartwatch" className="image" loading="lazy" />
           </picture>
         </motion.div>
       </motion.div>

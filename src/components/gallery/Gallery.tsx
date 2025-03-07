@@ -10,35 +10,35 @@ export default function Gallery() {
       title: "A compass that pushes the needle.",
       description:
         "Backtrack uses GPS data to create a path of where you’ve been, even if you’re off the grid.",
-      imgSrc: "/assets/images/gallery/compass",
+      imgSrc: "./assets/images/gallery/compass",
     },
     {
       id: "trails",
       title: "Make your own trails.",
       description:
         "Create and save custom walking and hiking routes with just a few taps.",
-      imgSrc: "/assets/images/gallery/trails",
+      imgSrc: "./assets/images/gallery/trails",
     },
     {
       id: "hike",
       title: "Take a hike.",
       description:
         "Track pace, distance, elevation gain, and calories burned during your hike.",
-      imgSrc: "/assets/images/gallery/hike",
+      imgSrc: "./assets/images/gallery/hike",
     },
     {
       id: "location",
       title: "Leave your iPhone behind. Take directions with you.",
       description:
         "Download offline maps to your iPhone, and they will automatically sync to your watch.",
-      imgSrc: "/assets/images/gallery/location",
+      imgSrc: "./assets/images/gallery/location",
     },
     {
       id: "xmarks",
       title: "X marks the spot to make a call.",
       description:
         "Cellular waypoints are automatically added to the Compass app.",
-      imgSrc: "/assets/images/gallery/xmarks",
+      imgSrc: "./assets/images/gallery/xmarks",
     },
   ];
 
