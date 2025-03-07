@@ -62,8 +62,8 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1 }}
         >
           <picture>
-            <source srcSet="/assets/images/hero/hero_img.avif" type="image/avif" />
-            <img src="/assets/images/hero/hero_img.png" alt="Smartwatch" className="image" loading="lazy" />
+            <source srcSet="public/assets/images/hero/hero_img.avif" type="image/avif" />
+            <img src="public/assets/images/hero/hero_img.png" alt="Smartwatch" className="image" loading="lazy" />
           </picture>
         </motion.div>
       </motion.div>
